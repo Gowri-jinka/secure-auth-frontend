@@ -1,0 +1,64 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  animation: fadeIn 1s ease-in;
+}
+
+.auth-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.auth-card input {
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.auth-card button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  width: 100%;
+  background: #1e1e2f;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background: #00d1b2;
+}
+
+.switch-link {
+  margin-top: 1rem;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-pass {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  cursor: pointer;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
