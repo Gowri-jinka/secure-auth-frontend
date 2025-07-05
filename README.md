@@ -11,7 +11,7 @@ Includes Login, Registration, and Dashboard with local storage logic and toast a
 
 ## 🌐 Live Demo
 
-🚀 [Click here to view the app](#) *(Will be added after deployment)*
+🚀 [Click here to view the app](https://brilliant-brioche-db6734.netlify.app)
 
 ---
 
